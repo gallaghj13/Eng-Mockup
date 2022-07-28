@@ -175,7 +175,7 @@
         </div>
         <div class="formField">
             <div class="formRow" id="row1">
-                <div class="formField2">
+                <div class="formField2" id="first">
                     <div class="formTitle" id="title1">
                         <text class="formText1">First Name</text>
                         <text class="formText2">Req.</text>
@@ -183,10 +183,8 @@
                     <div class="formInput">
                         <p>Longfirstname</p>
                     </div>
-                </div>
-            </div>
-            <div class="formRow" id="row2">
-                <div class="formField2">
+                </div>        
+                <div class="formField2" id="last">
                     <div class="formTitle" id="title2">
                         <text class="formText1">Last Name</text>
                         <text class="formText2">Req.</text>
@@ -195,20 +193,16 @@
                         <p>Longlastname</p>
                     </div>
                 </div>
-            </div>
-            <div class="formRow" id="row3">
-                <div class="formField2">
+                <div class="formField2" id="email">
                     <div class="formTitle" id="title3">
                         <text class="formText1">Email</text>
                         <text class="formText2">Req.</text>
                     </div>
-                    <div class="formInput">
+                    <div class="formInput" id="emailInput">
                         <p>email@email.com</p>
                     </div>
                 </div>
-            </div>
-            <div class="formRow" id="row3">
-                <div class="formField2">
+                <div class="formField2" id="phone">
                     <div class="formTitle" id="title4">
                         <text class="formText1">Phone</text>
                         <text class="formText2">Req.</text>
@@ -218,6 +212,74 @@
                     </div>
                 </div>
             </div>
+            <div class="formRow" id="row2">
+                <div class="formField2">
+                    <div class="formTitle">
+                        <text class="formText1" id="title5">I am A...</text>
+                    </div>
+                    <div class="select">
+                        <p class="option">Select an option</p>
+                        <div class="selectButton">
+                            <div class="caret"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="formField2">
+                    <div class="formTitle">
+                        <text class="formText1" id="title6">I Heard About You...</text>
+                    </div>
+                    <div class="select">
+                        <p class="option">Select an option</p>
+                        <div class="selectButton">
+                            <div class="caret"></div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="formRow" id="row3">
+                <div class="formField3">
+                    <div class="formTitle">
+                        <text class="formText1" id="title7">Bedroom Count</text>
+                    </div>
+                    <div class="select" id="selectRow2">
+                        <p class="option">Select a floor plan</p>
+                        <div class="selectButton">
+                            <div class="caret"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="formField3">
+                    <div class="formTitle">
+                        <text class="formText1" id="title8">Move-in Date</text>
+                    </div>
+                    <div class="select" id="selectRow2">
+                        <p class="option">Select a date range</p>
+                        <div class="selectButton">
+                            <div class="caret"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="formField4" id="checkbox1">
+                    <div class="formTitle">
+                        <text class="formText1" id="title9">Do you plan to bring a pet?</text>
+                    </div>
+                    <div class="checkbox">
+                        <div id="checkoption1">
+                            <div id="radio1"></div>
+                            <text id="checkYes">Yes</text>
+                        </div>
+                        <div id="checkoption2">
+                            <div id="radio2"></div>
+                            <text id="checkNo">No</text>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="formBut">
+            <button class="formButContainer">
+                <text class="formButton">Join The Interest List</text>
+            </button>
         </div>
     </div>
     <footer class="footer">
@@ -228,9 +290,9 @@
                 <div class="line" id="line1"></div>
                 <text>All Rights Reserved</text>
                 <div class="line" id="line2"></div>
-                <button>Privacy Policy</button>
+                <text>Privacy Policy</text>
                 <div class="line" id="line3"></div>
-                <button>Design By Engrain</button>
+                <text>Design By Engrain</text>
             </div>
             <div class="fcRight"></div>
         </div>
