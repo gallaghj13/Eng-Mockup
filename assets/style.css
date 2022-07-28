@@ -1034,10 +1034,10 @@ body {
     order: 0;
 }
 
-.formField #row1 {
+.formField #row2 {
     order: 1;
 }
-.formField #row1 {
+.formField #row3 {
     order: 2;
 }
 
@@ -1050,27 +1050,89 @@ body {
     height: 32px;
     /* Inside auto layout */
     flex: none;
+    order: 0;
     flex-grow: 0;   
 }
 
 .formTitle #title1 {
     width: 138px;
-    order: 0;
+  
 }
 
 .formTitle #title2 {
     width: 137px;
-    order: 1;
 }
 
 .formTitle #title3 {
     width: 96px;
-    order: 2;
 }
 
 .formTitle #title4 {
     width: 101px;
-    order: 3;
+}
+
+ #title5 {
+    width: 65px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+    /* Content/4 */
+    color: #FFFFFF;
+}
+
+#title6 {
+    width: 159px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+    /* Content/4 */
+    color: #FFFFFF;
+}
+
+#title7 {
+    width: 129px; 
+    /* Forms/Primary */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */ 
+    /* Content/4 */
+    color: #FFFFFF;
+}
+
+#title8 {
+    width: 111px;
+    height: 32px;
+    /* Forms/Primary */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+    /* Content/4 */
+    color: #FFFFFF;
+}
+
+#title9 {
+    width: 218px;
+    /* Forms/Primary */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+    /* Content/4 */
+    color: #FFFFFF;
 }
 
 .formText1 {
@@ -1106,6 +1168,337 @@ body {
     /* Inside auto layout */
     flex: none;
     order: 1;
+    flex-grow: 0;
+}
+
+.formField2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 358px;
+    height: 88px;
+    /* Inside auto layout */
+    flex: none;
+    flex-grow: 1;
+}
+
+.formField2 #first {
+    order: 0;
+}
+
+.formField2 #last {
+    order: 1;
+}
+
+.formField2 #email {
+    order: 2;
+}
+
+.formField2 #phone {
+    order: 3;
+}
+
+.formField3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 635px;
+    height: 88px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.formField4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 218px;
+    height: 88px;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.formInput {
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 16px;
+    width: 358px;
+    height: 48px;
+    /* UI/1 */ 
+    background: #2B2E33;
+    /* UI/6 */ 
+    border: 2px solid #919499;
+    border-radius: 4px; 
+    /* Inside auto layout */  
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#emailInput {
+    border: 2px solid #FFFFFF;
+}
+
+.formInput p {
+    width: 144px;
+    height: 32px;
+    /* Body/P/Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+    /* Content/4 */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.select {
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 772px;
+    height: 48px;
+    /* UI/1 */
+    background: #2B2E33;
+    /* UI/2 */
+    border: 2px solid #919499;
+    border-radius: 4px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#selectRow2 {
+    width: 635px;
+}
+
+.option {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 16px;
+    gap: 10px;
+    width: 194px;
+    height: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+    /* Content/3 */
+    color: #9DA1A6;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.selectButton {
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px 16px;
+    gap: 10px;
+    width: 56px;
+    height: 46px;
+    /* background: url(./images/Caret.png); */
+    /* UI/2 */
+    border-left: 2px solid #919499;
+    border-radius: 0px 4px 4px 0px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.caret {
+    background: url(./images/Caret.png);
+    color:#919499;
+    width: 24px;
+    height: 25px;
+    left: 8px;
+    top: 10px;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 0px;
+    gap: 24px;
+    width: 150px;
+    height: 48px;
+    border-radius: 4px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#checkoption1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 67px;
+    height: 32px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#checkoption2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 59px;
+    height: 32px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;    
+}
+
+#radio1 {
+    background: url(./images/Radio.png);
+    width: 24px;
+    height: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#radio2 {
+    background: url(./images/Radio2.png);
+    width: 24px;
+    height: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#checkYes {
+    width: 35px;
+    height: 32px;
+    /* Body/P/Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+    /* Content/4 */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#checkNo {
+    width: 27px;
+    height: 32px;
+    /* Body/P/Desktop */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+    /* Content/4 */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.formBut {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 213px;
+    height: 56px;
+    left: 854px;
+    top: 552px;
+}
+
+.formButContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 8px;
+    width: 213px;
+    height: 56px;
+    /* Brand/Default */
+    background: #1160E9;
+    border-radius: 2px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.formButton {
+    width: 165px;
+    height: 24px;
+    /* Misc/Button Label */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    text-transform: capitalize;
+    /* Content/On Brand */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
     flex-grow: 0;
 }
 
@@ -1194,59 +1587,6 @@ body {
 .fcLeft #text2 {
     width: 171px;
     order: 2;
-}
-
-.formField2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
-    width: 358px;
-    height: 88px;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 1;
-}
-
-.formInput {
-    box-sizing: border-box;
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 8px 16px;
-    width: 358px;
-    height: 48px;
-    /* UI/1 */ 
-    background: #2B2E33;
-    /* UI/6 */ 
-    border: 2px solid #FFFFFF;
-    border-radius: 4px; 
-    /* Inside auto layout */  
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-}
-
-.formInput p {
-    width: 144px;
-    height: 32px;
-    /* Body/P/Desktop */
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    /* identical to box height, or 160% */
-    /* Content/4 */
-    color: #FFFFFF;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .line {
